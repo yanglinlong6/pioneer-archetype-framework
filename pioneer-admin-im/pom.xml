@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>pioneer-framework-admin</artifactId>
+        <groupId>com.glsx</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>pioneer-admin-im</artifactId>
+
+    <properties>
+        <revision>1.2.0-SNAPSHOT</revision>
+        <netty.version>4.1.77.Final</netty.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-websocket</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>${netty.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.glsx</groupId>
+            <artifactId>pioneer-admin-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.glsx</groupId>
+            <artifactId>pioneer-admin-common</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.glsx</groupId>
+            <artifactId>pioneer-admin-exception</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.rongcloud.im</groupId>
+            <artifactId>server-sdk-java</artifactId>
+            <version>3.2.15</version>
+        </dependency>
+
+        <dependency>
+            <groupId>de.taimos</groupId>
+            <artifactId>httputils</artifactId>
+            <version>2.1</version>
+        </dependency>
+    </dependencies>
+</project>

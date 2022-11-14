@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>pioneer-framework-admin</artifactId>
+        <groupId>com.glsx</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>pioneer-admin-loggin</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.glsx</groupId>
+            <artifactId>pioneer-admin-common</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.glsx</groupId>
+            <artifactId>pioneer-admin-jwt</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.glsx</groupId>
+            <artifactId>pioneer-admin-mongodb</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.glsx</groupId>
+            <artifactId>pioneer-admin-office</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.glsx</groupId>
+            <artifactId>pioneer-admin-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>
