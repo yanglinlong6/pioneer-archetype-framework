@@ -13,9 +13,9 @@
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>rest-framework-admin</name>
+    <name>pioneer-framework-admin</name>
     <description>基于Spring Cloud微服务架构的框架</description>
-    <url>svn://192.168.3.233/frms/code/glsx-archetype/glsx-archetype/glsx-rest-archetype-framework</url>
+    <url>https://github.com/yanglinlong6/pioneer-archetype-framework.git</url>
 
     <licenses>
         <license>
@@ -45,10 +45,10 @@
         <!--        <repo.proxy.url>https://repo1.maven.org/maven2</repo.proxy.url>-->
         <!--        <repo.external.url>https://repo1.maven.org/maven2</repo.external.url>-->
 
-        <repo.internal.snapshots.url>https://maven.aliyun.com/repository/central</repo.internal.snapshots.url>
-        <repo.internal.releases.url>https://maven.aliyun.com/repository/central</repo.internal.releases.url>
-        <repo.proxy.url>https://maven.aliyun.com/repository/central</repo.proxy.url>
-        <repo.external.url>https://maven.aliyun.com/repository/central</repo.external.url>
+        <!--        <repo.internal.snapshots.url>https://maven.aliyun.com/repository/central</repo.internal.snapshots.url>-->
+        <!--        <repo.internal.releases.url>https://maven.aliyun.com/repository/central</repo.internal.releases.url>-->
+        <!--        <repo.proxy.url>https://maven.aliyun.com/repository/central</repo.proxy.url>-->
+        <!--        <repo.external.url>https://maven.aliyun.com/repository/central</repo.external.url>-->
 
         <!-- 本地发布服务器 -->
         <!--        <local.nexus.snapshots.url>http://127.0.0.1:8081/repository/maven-snapshots/</local.nexus.snapshots.url>-->
@@ -81,49 +81,37 @@
     </dependencyManagement>
 
     <modules>
-
         <module>pioneer-admin-core</module>
         <module>pioneer-admin-common</module>
         <module>pioneer-admin-context</module>
         <module>pioneer-admin-alliance</module>
-
         <module>pioneer-admin-config</module>
         <module>pioneer-admin-registry</module>
         <module>pioneer-admin-sleuth</module>
         <module>pioneer-admin-monitor</module>
         <module>pioneer-admin-bus</module>
         <module>pioneer-admin-sentinel</module>
-
         <module>pioneer-admin-gateway-server</module>
         <module>pioneer-admin-gateway-client</module>
-
         <module>pioneer-admin-redis</module>
         <module>pioneer-admin-jpa</module>
         <module>pioneer-admin-mybatis</module>
         <module>pioneer-admin-datasource</module>
-
         <module>pioneer-admin-dubbo</module>
         <module>pioneer-admin-feign</module>
-
         <module>pioneer-admin-dfs</module>
-
         <module>pioneer-admin-security</module>
         <module>pioneer-admin-jwt</module>
-
         <module>pioneer-admin-container</module>
         <module>pioneer-admin-webflux</module>
         <module>pioneer-admin-web</module>
         <module>pioneer-admin-exception</module>
-
         <module>pioneer-admin-kafka</module>
         <module>pioneer-admin-sms</module>
         <module>pioneer-admin-mail</module>
-
         <module>pioneer-admin-elasticsearch</module>
-
         <module>pioneer-admin-swagger2</module>
         <module>pioneer-admin-office</module>
-
         <module>pioneer-admin-wechat</module>
         <module>pioneer-admin-dynamic-datasource</module>
         <module>pioneer-admin-seata</module>
@@ -131,8 +119,6 @@
         <module>pioneer-admin-disruptor</module>
         <module>pioneer-admin-mongodb</module>
         <module>pioneer-admin-loggin</module>
-        <module>pioneer-admin-ai</module>
-        <module>pioneer-admin-push</module>
         <module>pioneer-admin-quartz</module>
         <module>pioneer-admin-pulsar</module>
         <module>pioneer-admin-elasticjob</module>
@@ -246,14 +232,14 @@
 
             <distributionManagement>
                 <repository>
-                    <id>nexus-releases</id>
-                    <name>Local Nexus Releases Repository</name>
-                    <url>${repo.internal.releases.url}</url>
+                    <id>local-releases</id>
+                    <name>Local Releases Repository</name>
+                    <url>file:/Users/yanglinlong/worksparce/javaApp/maven-repo</url>
                 </repository>
                 <snapshotRepository>
-                    <id>nexus-snapshots</id>
-                    <name>Local Nexus Snapshots Repository</name>
-                    <url>${repo.internal.snapshots.url}</url>
+                    <id>local-snapshots</id>
+                    <name>Local Snapshots Repository</name>
+                    <url>file:/Users/yanglinlong/worksparce/javaApp/maven-repo</url>
                 </snapshotRepository>
             </distributionManagement>
         </profile>

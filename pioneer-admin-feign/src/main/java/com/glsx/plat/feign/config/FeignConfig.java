@@ -15,6 +15,7 @@ import org.springframework.boot.autoconfigure.http.HttpMessageConverters;
 import org.springframework.cloud.openfeign.FeignAutoConfiguration;
 import org.springframework.cloud.openfeign.support.SpringDecoder;
 import org.springframework.cloud.openfeign.support.SpringEncoder;
+import org.springframework.context.annotation.*;
 import org.springframework.http.MediaType;
 import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.http.converter.json.GsonHttpMessageConverter;
@@ -107,10 +108,7 @@ public class FeignConfig {
         supportedMediaTypes.add(MediaType.TEXT_XML);
         converter.setSupportedMediaTypes(supportedMediaTypes);
         FastJsonConfig fastJsonConfig = new FastJsonConfig();
-        fastJsonConfig.setSerializerFeatures(SerializerFeature.WriteDateUseDateFormat,
-                SerializerFeature.WriteNullStringAsEmpty,
-                SerializerFeature.WriteMapNullValue,
-                SerializerFeature.DisableCircularReferenceDetect);
+        fastJsonConfig.setSerializerFeatures(SerializerFeature.WriteDateUseDateFormat, SerializerFeature.WriteNullStringAsEmpty, SerializerFeature.WriteMapNullValue, SerializerFeature.DisableCircularReferenceDetect);
         //日期格式化
         fastJsonConfig.setDateFormat("yyyy-MM-dd HH:mm:ss");
         converter.setFastJsonConfig(fastJsonConfig);

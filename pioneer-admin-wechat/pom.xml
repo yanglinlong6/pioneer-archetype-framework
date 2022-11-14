@@ -12,21 +12,24 @@
     <artifactId>pioneer-admin-wechat</artifactId>
 
     <properties>
-        <binarywang.version>4.3.2.B</binarywang.version>
+        <binarywang.version>4.2.7.B</binarywang.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>com.glsx</groupId>
             <artifactId>pioneer-admin-container</artifactId>
+            <version>${revision}</version>
         </dependency>
         <dependency>
             <groupId>com.glsx</groupId>
             <artifactId>pioneer-admin-web</artifactId>
+            <version>${revision}</version>
         </dependency>
         <dependency>
             <groupId>com.glsx</groupId>
             <artifactId>pioneer-admin-swagger2</artifactId>
+            <version>${revision}</version>
         </dependency>
         <dependency>
             <groupId>com.github.binarywang</groupId>
@@ -41,6 +44,11 @@
         <dependency>
             <groupId>com.github.binarywang</groupId>
             <artifactId>wx-java-pay-spring-boot-starter</artifactId>
+            <version>${binarywang.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.binarywang</groupId>
+            <artifactId>weixin-java-common</artifactId>
             <version>${binarywang.version}</version>
         </dependency>
     </dependencies>

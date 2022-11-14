@@ -23,33 +23,40 @@
         <dependency>
             <groupId>com.glsx</groupId>
             <artifactId>pioneer-admin-config</artifactId>
+            <version>${revision}</version>
         </dependency>
         <dependency>
             <groupId>com.glsx</groupId>
             <artifactId>pioneer-admin-registry</artifactId>
+            <version>${revision}</version>
         </dependency>
         <dependency>
             <groupId>com.glsx</groupId>
             <artifactId>pioneer-admin-sleuth</artifactId>
+            <version>${revision}</version>
         </dependency>
         <dependency>
             <groupId>com.glsx</groupId>
             <artifactId>pioneer-admin-monitor</artifactId>
+            <version>${revision}</version>
         </dependency>
 
         <dependency>
             <groupId>com.glsx</groupId>
             <artifactId>pioneer-admin-common</artifactId>
+            <version>${revision}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>com.glsx</groupId>
             <artifactId>pioneer-admin-core</artifactId>
+            <version>${revision}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>com.glsx</groupId>
             <artifactId>pioneer-admin-exception</artifactId>
+            <version>${revision}</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>

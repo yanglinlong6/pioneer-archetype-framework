@@ -15,6 +15,7 @@
         <dependency>
             <groupId>com.glsx</groupId>
             <artifactId>pioneer-admin-cache</artifactId>
+            <version>${revision}</version>
         </dependency>
         <!-- 配置连接池需要-->
         <dependency>

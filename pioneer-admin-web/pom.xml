@@ -15,22 +15,27 @@
         <dependency>
             <groupId>com.glsx</groupId>
             <artifactId>pioneer-admin-core</artifactId>
+            <version>${revision}</version>
         </dependency>
         <dependency>
             <groupId>com.glsx</groupId>
             <artifactId>pioneer-admin-common</artifactId>
+            <version>${revision}</version>
         </dependency>
         <dependency>
             <groupId>com.glsx</groupId>
             <artifactId>pioneer-admin-jwt</artifactId>
+            <version>${revision}</version>
         </dependency>
         <dependency>
             <groupId>com.glsx</groupId>
             <artifactId>pioneer-admin-redis</artifactId>
+            <version>${revision}</version>
         </dependency>
         <dependency>
             <groupId>com.glsx</groupId>
             <artifactId>pioneer-admin-exception</artifactId>
+            <version>${revision}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>

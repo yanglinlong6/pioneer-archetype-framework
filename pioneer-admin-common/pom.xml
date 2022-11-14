@@ -28,11 +28,14 @@
         <dependency>
             <groupId>com.glsx</groupId>
             <artifactId>pioneer-admin-core</artifactId>
+            <version>${revision}</version>
         </dependency>
 
         <dependency>
             <groupId>org.javassist</groupId>
             <artifactId>javassist</artifactId>
+            <version>3.26.0-GA</version>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>com.google.guava</groupId>
@@ -43,11 +46,7 @@
             <artifactId>commons-lang</artifactId>
             <version>${commons.lang.version}</version>
         </dependency>
-        <!--        <dependency>-->
-        <!--            <groupId>commons-fileupload</groupId>-->
-        <!--            <artifactId>commons-fileupload</artifactId>-->
-        <!--            <version>${commons.fileupload.version}</version>-->
-        <!--        </dependency>-->
+
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
@@ -100,11 +99,6 @@
             <artifactId>fastjson</artifactId>
             <version>${fastjson.version}</version>
         </dependency>
-        <!--        <dependency>-->
-        <!--            <groupId>com.alibaba.fastjson2</groupId>-->
-        <!--            <artifactId>fastjson2</artifactId>-->
-        <!--            <version>${fastjson2.version}</version>-->
-        <!--        </dependency>-->
 
         <dependency>
             <groupId>com.google.code.gson</groupId>

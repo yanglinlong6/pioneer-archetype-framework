@@ -21,10 +21,12 @@
         <dependency>
             <groupId>com.glsx</groupId>
             <artifactId>pioneer-admin-core</artifactId>
+            <version>${revision}</version>
         </dependency>
         <dependency>
             <groupId>com.glsx</groupId>
             <artifactId>pioneer-admin-datasource</artifactId>
+            <version>${revision}</version>
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>

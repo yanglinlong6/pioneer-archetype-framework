@@ -15,26 +15,32 @@
         <dependency>
             <groupId>com.glsx</groupId>
             <artifactId>pioneer-admin-config</artifactId>
+            <version>${revision}</version>
         </dependency>
         <dependency>
             <groupId>com.glsx</groupId>
             <artifactId>pioneer-admin-registry</artifactId>
+            <version>${revision}</version>
         </dependency>
         <dependency>
             <groupId>com.glsx</groupId>
             <artifactId>pioneer-admin-sentinel</artifactId>
+            <version>${revision}</version>
         </dependency>
         <dependency>
             <groupId>com.glsx</groupId>
             <artifactId>pioneer-admin-sleuth</artifactId>
+            <version>${revision}</version>
         </dependency>
         <dependency>
             <groupId>com.glsx</groupId>
             <artifactId>pioneer-admin-monitor</artifactId>
+            <version>${revision}</version>
         </dependency>
         <dependency>
             <groupId>com.glsx</groupId>
             <artifactId>pioneer-admin-gateway-client</artifactId>
+            <version>${revision}</version>
         </dependency>
     </dependencies>
 </project>

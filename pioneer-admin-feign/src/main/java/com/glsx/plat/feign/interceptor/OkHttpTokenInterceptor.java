@@ -18,8 +18,7 @@ public class OkHttpTokenInterceptor implements Interceptor {
 
     @Override
     public Response intercept(Chain chain) throws IOException {
-        Request newRequest = chain.request()
-                .newBuilder()
+        Request newRequest = chain.request().newBuilder()
 //                .header(userAuthConfig.getTokenHeader(), BaseContextHandler.getToken())
                 .build();
 
