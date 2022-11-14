@@ -47,18 +47,18 @@
         <spring-cloud-alibaba.version>2.2.6.RELEASE</spring-cloud-alibaba.version>
         <revision>1.0.0-SNAPSHOT</revision>
 
-        <!--        <repo.internal.snapshots.url>https://repo1.maven.org/maven2</repo.internal.snapshots.url>-->
-        <!--        <repo.internal.releases.url>https://repo1.maven.org/maven2</repo.internal.releases.url>-->
-        <!--        <repo.proxy.url>https://repo1.maven.org/maven2</repo.proxy.url>-->
-        <!--        <repo.external.url>https://repo1.maven.org/maven2</repo.external.url>-->
+        <repo.internal.snapshots.url>https://repo1.maven.org/maven2</repo.internal.snapshots.url>
+        <repo.internal.releases.url>https://repo1.maven.org/maven2</repo.internal.releases.url>
+        <repo.proxy.url>https://repo1.maven.org/maven2</repo.proxy.url>
+        <repo.external.url>https://repo1.maven.org/maven2</repo.external.url>
 
         <!-- 本地发布服务器 -->
         <!--        <local.nexus.snapshots.url>http://127.0.0.1:8081/repository/maven-snapshots/</local.nexus.snapshots.url>-->
         <!--        <local.nexus.releases.url>http://127.0.0.1:8081/repository/maven-releases/</local.nexus.releases.url>-->
 
-        <local.nexus.snapshots.url>http://192.168.3.233/nexus/content/repositories/snapshots/
-        </local.nexus.snapshots.url>
-        <local.nexus.releases.url>http://192.168.3.233/nexus/content/repositories/releases/</local.nexus.releases.url>
+        <!--        <local.nexus.snapshots.url>http://192.168.3.233/nexus/content/repositories/snapshots/-->
+        <!--        </local.nexus.snapshots.url>-->
+        <!--        <local.nexus.releases.url>http://192.168.3.233/nexus/content/repositories/releases/</local.nexus.releases.url>-->
     </properties>
 
     <dependencyManagement>
