@@ -57,6 +57,10 @@
         <!--        <local.nexus.snapshots.url>http://192.168.3.233/nexus/content/repositories/snapshots/-->
         <!--        </local.nexus.snapshots.url>-->
         <!--        <local.nexus.releases.url>http://192.168.3.233/nexus/content/repositories/releases/</local.nexus.releases.url>-->
+
+        <local.nexus.snapshots.url>file:D:\\JAVAAPP\\maven-repo</local.nexus.snapshots.url>
+        <local.nexus.releases.url>file:D:\\JAVAAPP\\maven-repo</local.nexus.releases.url>
+
     </properties>
 
     <dependencyManagement>
@@ -81,6 +85,7 @@
     </dependencyManagement>
 
     <modules>
+        <module>pioneer-admin-ai</module>
         <module>pioneer-admin-core</module>
         <module>pioneer-admin-common</module>
         <module>pioneer-admin-context</module>
@@ -121,6 +126,7 @@
         <module>pioneer-admin-loggin</module>
         <module>pioneer-admin-quartz</module>
         <module>pioneer-admin-pulsar</module>
+        <module>pioneer-admin-push</module>
         <module>pioneer-admin-elasticjob</module>
         <module>pioneer-admin-kafka-ancient</module>
         <module>pioneer-admin-flowable</module>
@@ -234,12 +240,12 @@
                 <repository>
                     <id>local-releases</id>
                     <name>Local Releases Repository</name>
-                    <url>file:/Users/yanglinlong/worksparce/javaApp/maven-repo</url>
+                    <url>${local.nexus.releases.url}</url>
                 </repository>
                 <snapshotRepository>
                     <id>local-snapshots</id>
                     <name>Local Snapshots Repository</name>
-                    <url>file:/Users/yanglinlong/worksparce/javaApp/maven-repo</url>
+                    <url>${local.nexus.snapshots.url}</url>
                 </snapshotRepository>
             </distributionManagement>
         </profile>
