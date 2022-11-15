@@ -89,6 +89,7 @@
         <module>pioneer-admin-core</module>
         <module>pioneer-admin-common</module>
         <module>pioneer-admin-context</module>
+        <module>pioneer-admin-jwt</module>
         <module>pioneer-admin-alliance</module>
         <module>pioneer-admin-config</module>
         <module>pioneer-admin-registry</module>
@@ -106,7 +107,6 @@
         <module>pioneer-admin-feign</module>
         <module>pioneer-admin-dfs</module>
         <module>pioneer-admin-security</module>
-        <module>pioneer-admin-jwt</module>
         <module>pioneer-admin-container</module>
         <module>pioneer-admin-webflux</module>
         <module>pioneer-admin-web</module>
