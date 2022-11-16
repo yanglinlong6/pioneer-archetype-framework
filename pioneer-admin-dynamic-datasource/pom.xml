@@ -13,6 +13,7 @@
 
     <properties>
         <mysql.version>8.0.29</mysql.version>
+        <revision>1.0.0-SNAPSHOT</revision>
     </properties>
 
     <dependencies>

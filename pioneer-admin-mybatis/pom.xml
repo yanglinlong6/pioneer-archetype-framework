@@ -15,6 +15,7 @@
         <mybatis.boot.version>2.2.2</mybatis.boot.version>
         <mapper.boot.version>2.1.5</mapper.boot.version>
         <pagehelper.boot.version>1.4.2</pagehelper.boot.version>
+        <revision>1.0.0-SNAPSHOT</revision>
     </properties>
 
     <dependencies>

@@ -11,6 +11,10 @@
 
     <artifactId>pioneer-admin-office</artifactId>
 
+    <properties>
+        <revision>1.0.0-SNAPSHOT</revision>
+    </properties>
+
     <dependencies>
         <!-- excel工具包 -->
         <dependency>

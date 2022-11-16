@@ -13,6 +13,7 @@
 
     <properties>
         <feign.form.version>3.8.0</feign.form.version>
+        <revision>1.0.0-SNAPSHOT</revision>
     </properties>
 
     <dependencies>

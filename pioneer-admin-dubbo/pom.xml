@@ -13,6 +13,7 @@
 
     <properties>
         <curator.version>4.2.0</curator.version>
+        <revision>1.0.0-SNAPSHOT</revision>
     </properties>
 
     <dependencies>

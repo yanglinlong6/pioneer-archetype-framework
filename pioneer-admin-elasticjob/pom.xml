@@ -11,6 +11,10 @@
 
     <artifactId>pioneer-admin-elasticjob</artifactId>
 
+    <properties>
+        <revision>1.0.0-SNAPSHOT</revision>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>com.github.kuhn-he</groupId>

@@ -11,6 +11,10 @@
 
     <artifactId>pioneer-admin-config</artifactId>
 
+    <properties>
+        <revision>1.0.0-SNAPSHOT</revision>
+    </properties>
+
     <dependencies>
         <!-- nacos-config -->
         <dependency>

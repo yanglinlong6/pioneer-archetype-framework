@@ -11,6 +11,10 @@
 
     <artifactId>pioneer-admin-flowable</artifactId>
 
+    <properties>
+        <revision>1.0.0-SNAPSHOT</revision>
+    </properties>
+
     <dependencies>
         <!--flowable工作流依赖-->
         <dependency>

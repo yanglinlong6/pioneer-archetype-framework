@@ -11,6 +11,10 @@
 
     <artifactId>pioneer-admin-monitor</artifactId>
 
+    <properties>
+        <revision>1.0.0-SNAPSHOT</revision>
+    </properties>
+
     <dependencies>
         <!-- actuator -->
         <dependency>

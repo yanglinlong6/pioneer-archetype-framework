@@ -11,6 +11,10 @@
 
     <artifactId>pioneer-admin-cache</artifactId>
 
+    <properties>
+        <revision>1.0.0-SNAPSHOT</revision>
+    </properties>
+
     <dependencies>
         <!--内部缓存框架统一采用caffeine-->
         <!--Spring cloud loadbalancer用的本地实例缓存也是基于Caffeine-->

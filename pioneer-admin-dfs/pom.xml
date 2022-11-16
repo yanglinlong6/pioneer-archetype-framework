@@ -11,6 +11,10 @@
 
     <artifactId>pioneer-admin-dfs</artifactId>
 
+    <properties>
+        <revision>1.0.0-SNAPSHOT</revision>
+    </properties>
+
     <dependencies>
         <!-- FastDFS依赖 -->
         <dependency>

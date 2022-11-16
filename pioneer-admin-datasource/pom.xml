@@ -14,6 +14,7 @@
     <properties>
         <mysql.version>8.0.28</mysql.version>
         <druid.starter.version>1.2.3</druid.starter.version>
+        <revision>1.0.0-SNAPSHOT</revision>
     </properties>
 
     <dependencies>

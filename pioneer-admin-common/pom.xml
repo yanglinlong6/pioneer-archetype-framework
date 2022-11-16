@@ -22,6 +22,7 @@
         <org.mapstruct.version>1.4.2.Final</org.mapstruct.version>
         <fastjson.version>1.2.76</fastjson.version>
         <fastjson2.version>2.0.3</fastjson2.version>
+        <revision>1.0.0-SNAPSHOT</revision>
     </properties>
 
     <dependencies>
