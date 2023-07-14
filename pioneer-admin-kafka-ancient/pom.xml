@@ -34,6 +34,10 @@
                     <groupId>com.sun.jmx</groupId>
                     <artifactId>jmxri</artifactId>
                 </exclusion>
+                <exclusion>
+                    <groupId>javax.jms</groupId>
+                    <artifactId>jms</artifactId>
+                </exclusion>
             </exclusions>
         </dependency>
 
@@ -48,5 +52,13 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot</artifactId>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.glassfish.main.javaee-api/javax.jms -->
+        <dependency>
+            <groupId>org.glassfish.main.javaee-api</groupId>
+            <artifactId>javax.jms</artifactId>
+            <version>3.1.2</version>
+        </dependency>
+
     </dependencies>
 </project>
